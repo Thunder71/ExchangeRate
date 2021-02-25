@@ -33,6 +33,7 @@ public class AppController {
         return rateService.getRatesFromValute(valute, appId);
     }
 
+    @GetMapping("/getRatesFromValuteAndDate/VALUTE={valute}/DATE={date}/APP_ID={appId}")
     public Rates getRateFromValuteAndDate(@PathVariable String valute, @PathVariable String date, @PathVariable String appId){
         return rateService.getRatesFromValuteAndDate(valute, date, appId);
     }
