@@ -35,3 +35,10 @@ valute - код курса валюты, например USD, RUB, EUR, ...
 
 giphId - уникальный ID, необходимый для запросов к сервису гифок, ***можно использовать мой:*** `yrqZxczIaZx9uTmWsJ7CwQ9oRmoqySxY`
 
+# Примеры:
+**/app/getValueRates/APP_ID=`b42a22cf193e4c4382343ce0f4316b80`/GIPH_ID=`yrqZxczIaZx9uTmWsJ7CwQ9oRmoqySxY`**
+
+**/app/getRates/APP_ID=`b42a22cf193e4c4382343ce0f4316b80`**
+
+**/app/getRatesFromDate/DATE=`2021-02-24`/APP_ID=`b42a22cf193e4c4382343ce0f4316b80`**
+
